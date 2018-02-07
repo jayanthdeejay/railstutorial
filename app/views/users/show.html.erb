@@ -12,3 +12,13 @@
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
+
+<p>
+  <strong>Content:</strong>
+  <%= @post.second.content %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @post.second.user_id %>
+</p>
